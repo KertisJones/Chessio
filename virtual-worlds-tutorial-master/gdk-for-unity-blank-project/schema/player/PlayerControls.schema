@@ -1,0 +1,13 @@
+package improbable.player;
+ 
+type MovementUpdate {
+	float x = 1;
+	float y = 2;
+}
+ 
+component PlayerControls {
+	id = 1001;
+ 
+  //Event to send to server to update movement
+  event MovementUpdate movement_update;
+}
