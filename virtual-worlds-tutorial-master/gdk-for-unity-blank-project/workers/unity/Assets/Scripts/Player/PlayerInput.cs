@@ -17,6 +17,10 @@ namespace Assets.Scripts.Player
         float updateTime = .1f;
         float lastUpdate = 0f;
 
+        private bool moveThisUpdate = false;
+        private float mousePosLastClickX = 0f;
+        private float mousePosLastClickY = 0f;
+
         // Adds event reader to match player position to server position
         private void OnEnable()
         {
@@ -27,7 +31,13 @@ namespace Assets.Scripts.Player
         // Update is called once per frame
         void Update()
         {
-            if (lastUpdate <= updateTime)
+            if (Input.GetMouseButtonDown(0))
+            {
+                mousePosLastClickX = Input.mousePosition.x;
+                mousePosLastClickY = Input.mousePosition.y;
+                moveThisUpdate = true;
+            }
+                if (lastUpdate <= updateTime)
             {
                 lastUpdate += Time.deltaTime;
                 return;
@@ -35,9 +45,11 @@ namespace Assets.Scripts.Player
 
             lastUpdate = 0;
 
-            if (Input.GetMouseButtonDown(0))
+            if (moveThisUpdate)
             {
-                var pos = Input.mousePosition;
+                moveThisUpdate = false;
+
+                var pos = new Vector3(mousePosLastClickX, mousePosLastClickY, 0);
                 pos.z = 0;
                 pos = Camera.main.ScreenToWorldPoint(pos);
 
