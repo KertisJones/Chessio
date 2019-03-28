@@ -21,6 +21,10 @@ namespace Assets.Scripts.Player
         private float mousePosLastClickX = 0f;
         private float mousePosLastClickY = 0f;
 
+        private bool selected = false;
+        [SerializeField] private Sprite unselectedSprite;
+        [SerializeField] private Sprite selectedSprite;
+
         // Adds event reader to match player position to server position
         private void OnEnable()
         {
@@ -36,8 +40,45 @@ namespace Assets.Scripts.Player
                 mousePosLastClickX = Input.mousePosition.x;
                 mousePosLastClickY = Input.mousePosition.y;
                 //Debug.Log("Set: x: " + mousePosLastClickX + ", y: " + mousePosLastClickY);
-                moveThisUpdate = true;
+
+                if (selected)
+                {
+                    moveThisUpdate = true;
+                }
+                else
+                {
+                    var currentServerPos = positionReader.Data.Coords;
+                    Vector3 currentServerPosVector = new Vector3((float)currentServerPos.X, (float)currentServerPos.Y, (float)currentServerPos.Z);
+                    //Debug.Log(currentServerPosVector);
+                    //Debug.Log(mousePosLastClickX + ", " + mousePosLastClickY);
+
+                    var pos = new Vector3(Mathf.RoundToInt(mousePosLastClickX), Mathf.RoundToInt(mousePosLastClickY), 0);
+                    pos = Camera.main.ScreenToWorldPoint(pos);
+                    pos = new Vector3(Mathf.RoundToInt(pos.x), Mathf.RoundToInt(pos.y), 0);
+
+                    //Debug.Log(pos);
+                    if (pos.x == currentServerPosVector.x && pos.y == currentServerPosVector.y)
+                    {
+                        selected = true;
+                    }
+                    else
+                    {
+                        selected = false;
+                    }
+                }
             }
+
+            if (selected)
+            {
+                if (selectedSprite != null)
+                    GetComponentInChildren<SpriteRenderer>().sprite = selectedSprite;
+            }
+            else
+            {
+                if (unselectedSprite != null)
+                    GetComponentInChildren<SpriteRenderer>().sprite = unselectedSprite;
+            }
+
             if (lastUpdate <= updateTime)
             {
                 lastUpdate += Time.deltaTime;
@@ -52,6 +93,7 @@ namespace Assets.Scripts.Player
 
                 var pos = new Vector3(Mathf.RoundToInt(mousePosLastClickX), Mathf.RoundToInt(mousePosLastClickY), 0);
                 pos = Camera.main.ScreenToWorldPoint(pos);
+                pos = new Vector3(Mathf.RoundToInt(pos.x), Mathf.RoundToInt(pos.y), 0);
 
                 //Instantiate(particle, transform.position, transform.rotation);
 
@@ -60,7 +102,15 @@ namespace Assets.Scripts.Player
 
                 inputWriter.SendMovementUpdate(new MovementUpdate(x, y));
 
-                Debug.Log("Sent: x: " + x + ", y: " + y);
+                //Handle Deselect
+                var currentServerPos = positionReader.Data.Coords;
+                Vector3 currentServerPosVector = new Vector3((float)currentServerPos.X, (float)currentServerPos.Y, (float)currentServerPos.Z);
+                if (!((Mathf.Abs(currentServerPosVector.x - pos.x) <= 1) && (Mathf.Abs(currentServerPosVector.y - pos.y) <= 1)))
+                {
+                    selected = false;
+                }
+
+                //Debug.Log("Sent: x: " + x + ", y: " + y);
             }
         }
 
@@ -70,6 +120,7 @@ namespace Assets.Scripts.Player
             Vector3 newPos = new Vector3((float)update.X, (float)update.Y, (float)update.Z);
             gameObject.transform.position = newPos;
             //Debug.LogWarning("Position Updated");
+            selected = false;
         }
     }
 }
