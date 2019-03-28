@@ -13,8 +13,8 @@ namespace Assets.Scripts.Player
     {
         [Require] private PlayerControls.Requirable.Reader inputReader;
         [Require] private Position.Requirable.Writer positionWriter;
+        [Require] private Position.Requirable.Reader positionReader;
 
-        float speed = .5f;
 
         // Adds event reader to match player position to server position
         private void OnEnable()
@@ -26,7 +26,7 @@ namespace Assets.Scripts.Player
         // Takes the position update, and applies it directly to the object
         void OnControlUpdate(MovementUpdate update)
         {
-            Debug.LogWarning("Update recieved");
+            //Debug.LogWarning("Update recieved");
             Vector2 control = new Vector2(update.X, update.Y);
             //control.Normalize();
             //control = control * speed;
@@ -34,14 +34,21 @@ namespace Assets.Scripts.Player
             Vector3 newPos = this.transform.position;
             newPos.x = control.x; // newPos.x + control.x;
             newPos.y = control.y; // newPos.z + control.y;
-            this.transform.position = newPos;
 
-            Coordinates serverPos = new Coordinates((double)newPos.x, (double)newPos.y, (double)newPos.z);
+            var currentServerPos = positionReader.Data.Coords;
+            Vector3 currentServerPosVector = new Vector3((float)currentServerPos.X, (float)currentServerPos.Y, (float)currentServerPos.Z);
 
-            positionWriter.Send(new Position.Update
+            if ((Mathf.Abs(currentServerPosVector.x - newPos.x) <= 1) && (Mathf.Abs(currentServerPosVector.y - newPos.y) <= 1))
             {
-                Coords = serverPos
-            });
+                this.transform.position = newPos;
+
+                Coordinates serverPos = new Coordinates((double)newPos.x, (double)newPos.y, (double)newPos.z);
+
+                positionWriter.Send(new Position.Update
+                {
+                    Coords = serverPos
+                });
+            }
         }
     }
 }

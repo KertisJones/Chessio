@@ -38,7 +38,7 @@ namespace Assets.Scripts.Player
                 //Debug.Log("Set: x: " + mousePosLastClickX + ", y: " + mousePosLastClickY);
                 moveThisUpdate = true;
             }
-                if (lastUpdate <= updateTime)
+            if (lastUpdate <= updateTime)
             {
                 lastUpdate += Time.deltaTime;
                 return;

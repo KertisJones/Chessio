@@ -23,12 +23,12 @@ public class CreateBoard : MonoBehaviour
                 if ((x % 2 == 0 && y % 2 == 0) || (x % 2 != 0 && y % 2 != 0))
                 {
                     if (blackSquare != null)
-                        Instantiate(blackSquare, new Vector3(x + offsetX, y + offsetY, 0), Quaternion.identity);
+                        Instantiate(blackSquare, new Vector3(x + offsetX, y + offsetY, 0), Quaternion.identity, this.transform);
                 }
                 else
                 {
                     if (whiteSquare != null)
-                        Instantiate(whiteSquare, new Vector3(x + offsetX, y + offsetY, 0), Quaternion.identity);
+                        Instantiate(whiteSquare, new Vector3(x + offsetX, y + offsetY, 0), Quaternion.identity, this.transform);
                 }
             }
         }
