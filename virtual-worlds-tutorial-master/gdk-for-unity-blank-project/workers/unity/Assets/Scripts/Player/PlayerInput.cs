@@ -35,6 +35,7 @@ namespace Assets.Scripts.Player
             {
                 mousePosLastClickX = Input.mousePosition.x;
                 mousePosLastClickY = Input.mousePosition.y;
+                //Debug.Log("Set: x: " + mousePosLastClickX + ", y: " + mousePosLastClickY);
                 moveThisUpdate = true;
             }
                 if (lastUpdate <= updateTime)
@@ -49,18 +50,17 @@ namespace Assets.Scripts.Player
             {
                 moveThisUpdate = false;
 
-                var pos = new Vector3(mousePosLastClickX, mousePosLastClickY, 0);
-                pos.z = 0;
+                var pos = new Vector3(Mathf.RoundToInt(mousePosLastClickX), Mathf.RoundToInt(mousePosLastClickY), 0);
                 pos = Camera.main.ScreenToWorldPoint(pos);
 
                 //Instantiate(particle, transform.position, transform.rotation);
 
-                float x = pos.x; //Input.GetAxis("Horizontal");
-                float y = pos.y; // Input.GetAxis("Vertical");
+                float x = Mathf.RoundToInt(pos.x); //Input.GetAxis("Horizontal");
+                float y = Mathf.RoundToInt(pos.y); // Input.GetAxis("Vertical");
 
                 inputWriter.SendMovementUpdate(new MovementUpdate(x, y));
 
-                //Debug.Log("Sent");
+                Debug.Log("Sent: x: " + x + ", y: " + y);
             }
         }
 
