@@ -28,12 +28,12 @@ namespace Assets.Scripts.Player
         {
             Debug.LogWarning("Update recieved");
             Vector2 control = new Vector2(update.X, update.Y);
-            control.Normalize();
-            control = control * speed;
+            //control.Normalize();
+            //control = control * speed;
 
             Vector3 newPos = this.transform.position;
-            newPos.x = newPos.x + control.x;
-            newPos.z = newPos.z + control.y;
+            newPos.x = control.x; // newPos.x + control.x;
+            newPos.y = control.y; // newPos.z + control.y;
             this.transform.position = newPos;
 
             Coordinates serverPos = new Coordinates((double)newPos.x, (double)newPos.y, (double)newPos.z);

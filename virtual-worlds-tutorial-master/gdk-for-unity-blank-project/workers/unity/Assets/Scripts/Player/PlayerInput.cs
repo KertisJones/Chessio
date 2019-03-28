@@ -35,11 +35,21 @@ namespace Assets.Scripts.Player
 
             lastUpdate = 0;
 
-            float x = Input.GetAxis("Horizontal");
-            float y = Input.GetAxis("Vertical");
+            if (Input.GetMouseButtonDown(0))
+            {
+                var pos = Input.mousePosition;
+                pos.z = 0;
+                pos = Camera.main.ScreenToWorldPoint(pos);
 
-            inputWriter.SendMovementUpdate(new MovementUpdate(x, y));
-            Debug.LogError("Sent");
+                //Instantiate(particle, transform.position, transform.rotation);
+
+                float x = pos.x; //Input.GetAxis("Horizontal");
+                float y = pos.y; // Input.GetAxis("Vertical");
+
+                inputWriter.SendMovementUpdate(new MovementUpdate(x, y));
+
+                //Debug.Log("Sent");
+            }
         }
 
         // Takes the position update, and applies it directly to the object
