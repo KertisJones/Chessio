@@ -30,6 +30,7 @@ namespace Assets.Scripts.Player
         {
             Debug.LogError("Init");
             positionReader.CoordsUpdated += OnPositionUpdate;
+            GetComponentInChildren<SpriteRenderer>().color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
         }
 
         // Update is called once per frame
