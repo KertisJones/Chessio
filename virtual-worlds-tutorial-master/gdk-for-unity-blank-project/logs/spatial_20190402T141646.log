@@ -1,0 +1,293 @@
+debug Enabling plugins for supported SDK version '13.5.1-gdk-for-unity' [cli-version: 20190114.130720.d88275c6e9]
+debug using local event logger [cli-version: 20190114.130720.d88275c6e9]
+debug starting wrapper services endpoint [cli-version: 20190114.130720.d88275c6e9]
+debug health-check message from wrapper service received [cli-version: 20190114.130720.d88275c6e9]
+debug wrapper service started successfully in 5.0007ms after 1 attempt(s) [cli-version: 20190114.130720.d88275c6e9]
+debug Importing the SDK plugin for project SDK version '13.5.1-gdk-for-unity'. [cli-version: 20190114.130720.d88275c6e9]
+debug Retrieved the plugin commands from cache. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'build'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'clean'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'codegen'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'diagnose'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'exec'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'file'. [cli-version: 20190114.130720.d88275c6e9]
+debug Not changing existing command as imported command does not have an implementation: 'local'. [cli-version: 20190114.130720.d88275c6e9]
+debug Not changing existing command as imported command does not have an implementation: 'worker'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'launch'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding aliases to 'package' command: worker_package [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'clean'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'unpack'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'unpack-to'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'prepare-for-run'. [cli-version: 20190114.130720.d88275c6e9]
+debug Not changing existing command as imported command does not have an implementation: 'project'. [cli-version: 20190114.130720.d88275c6e9]
+debug Not changing existing command as imported command does not have an implementation: 'history'. [cli-version: 20190114.130720.d88275c6e9]
+debug Not changing existing command as imported command does not have an implementation: 'snapshot'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'convert'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'schema'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'setup'. [cli-version: 20190114.130720.d88275c6e9]
+debug Adding new command: 'worker'. [cli-version: 20190114.130720.d88275c6e9]
+warning A newer version of spatial is available. Run 'spatial update' to get the latest version.
+For more information, see https://docs.improbable.io/reference/latest/shared/release-policy#spatial-cli-releases [cli-version: 20190114.130720.d88275c6e9]
+debug checking cache location at 'C:\Users\jdriggin\AppData\Local\.improbable\cache\worker_package\1.8.0_161\jre\jre-win64.zip' [cli-version: 20190114.130720.d88275c6e9]
+debug package was found in the cache [cli-version: 20190114.130720.d88275c6e9]
+info Preparing to run SpatialOS. [cli-version: 20190114.130720.d88275c6e9]
+debug Executing command: [C:\Users\jdriggin\AppData\Local\.improbable\bin\plugins\sdk\13.5.1-gdk-for-unity\sdk.exe prepare-for-run --wrapper_service_port 1443 --]. [cli-version: 20190114.130720.d88275c6e9]
+debug Found project root at C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project [cli-version: 20190114.130720.d88275c6e9]
+debug Running within a SpatialOS project, using the default input paths '[C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\schema C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\build\dependencies\schema\standard_library]' [cli-version: 20190114.130720.d88275c6e9]
+debug Executing '[C:\Users\jdriggin\AppData\Local\.improbable\bin\plugins\sdk\13.5.1-gdk-for-unity\sdk.exe prepare-for-run --wrapper_service_port 1443 --]' in 'C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project' [cli-version: 20190114.130720.d88275c6e9]
+debug Building schema descriptor. [cli-version: 20190114.130720.d88275c6e9]
+debug Found version '13.5.1-gdk-for-unity' in project descriptor in directory C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project [cli-version: 20190114.130720.d88275c6e9]
+debug checking cache location at 'C:\Users\jdriggin\AppData\Local\.improbable\cache\worker_package\13.5.1-gdk-for-unity\tools\schema_compiler-x86_64-win32.zip' [cli-version: 20190114.130720.d88275c6e9]
+debug package was found in the cache [cli-version: 20190114.130720.d88275c6e9]
+debug C:\Users\jdriggin\AppData\Local\Temp\improbable_extracted_packages\c6a8d6a9b722acec861c73b509c7283e\schema_compiler.exe: No outputs specified, validating schema only. [cli-version: 20190114.130720.d88275c6e9]
+debug No cache found in 'C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\build\descriptor\cache.json'. [cli-version: 20190114.130720.d88275c6e9]
+debug Changes detected. Generating code. [cli-version: 20190114.130720.d88275c6e9]
+debug Cleaning output directories [C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\build\descriptor\output] [cli-version: 20190114.130720.d88275c6e9]
+info [37;1mGenerating descriptor. 1/1[0m    [[32m====================[0m] [32m100[0m%
+ [cli-version: 20190114.130720.d88275c6e9][formatting_hints: category:UNFORMATTED ]
+debug Saving cache data to C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\build\descriptor\cache.json. [cli-version: 20190114.130720.d88275c6e9]
+info 'spatial prepare-for-run' succeeded [cli-version: 20190114.130720.d88275c6e9][formatting_hints: category:SUCCESS duration:<nanos:517790800 > ]
+debug Using magic DPL config provided at 'default_launch.json'. [cli-version: 20190114.130720.d88275c6e9]
+debug Got expired or invalid access token &{eyJhbGciOiJSUzM4NCIsImtpZCI6IjAwMDQifQ.eyJzdWIiOiI2MjEwMTExMTg2OTI3NjE2IiwiZXhwIjoxNTU0MjI4NzI5LCJqdGkiOiI2YzY4ZWJmZi01ZjMyLTQwMTMtYjJmNy1kMzBkNTU2OWIwMjUiLCJzY29wZSI6IlsqXTpvcmcvYmV0YV9zaW5rX2xpdGhpdW1fOTkvKiBbKl06cHJqL2JldGFfc2lua19saXRoaXVtXzk5LyogW2cscl06c3J2LyoiLCJ1c2VyX2luZm8iOnsiYWNjb3VudF9pZCI6NjIxMDExMTE4NjkyNzYxNiwic2VydmljZV9hY2NvdW50X2lkIjowLCJ1c2VyX2lkIjoiIiwicHJvdmlkZXJfdWlkIjoiIiwicHJvdmlkZXIiOiJnb29nbGUiLCJuYW1lIjoiSmVzc2UgUmlnZ2lucyIsImVtYWlsIjoiamVzc2UucmlnZ2luczk4QGdtYWlsLmNvbSIsInBpY3R1cmVfdXJsIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy03Y0tac1BwT1NXby9BQUFBQUFBQUFBSS9BQUFBQUFBQUFZNC9hZjdZeG83MmMwVS9waG90by5qcGciLCJ1c2VybmFtZSI6IiIsIm9yZ2FuaXNhdGlvbl9pZCI6NTc4NjE0OTY5NzA5MzYzMn19.P_s5QfoCBrWZq3P7eg51dhzprtTJG2yyfjWgmWoJZes_PqJH8tcvE1CCeuxny82il35-TFmUUqloHouq2ijtz0CxW_vAWf_yjPfL6T9OFViI0kmMhx6QogvCmdZqakHEEW5jvzBHt_2SI0RbFc_2vUsm_pE9dzZNiKx3I1yOL-8 Bearer  2019-04-02 14:12:09.8019602 -0400 EDT <nil>} from cache [cli-version: 20190114.130720.d88275c6e9][@tags: cached_refresh_token_source]
+info SpatialOS will launch from snapshot file 'C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\snapshots\default.snapshot'. [cli-version: 20190114.130720.d88275c6e9]
+debug Using 'two-gsim-one-jvm' for project id 'beta_kansas_india_232' [cli-version: 20190114.130720.d88275c6e9]
+debug Latest manifest version: 2019-04-02-1554-43d9b9805d [cli-version: 20190114.130720.d88275c6e9]
+debug Fetching manifest: https://console.improbable.io/api/local-inspector/v1/manifest [cli-version: 20190114.130720.d88275c6e9]
+debug Already have the latest version of the inspector: 2019-04-02-1554-43d9b9805d [cli-version: 20190114.130720.d88275c6e9]
+debug SpatialOS preparing setup [cli-version: 20190114.130720.d88275c6e9]
+info SpatialOS starting. [cli-version: 20190114.130720.d88275c6e9]
+debug starting fabric node master [cli-version: 20190114.130720.d88275c6e9]
+debug Will invoke java binary at C:\Users\jdriggin\AppData\Local\Temp\improbable_extracted_packages\87f6ffea625d605fb00b9f17d59d350f/bin/java.exe [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+debug master node elected with ip(127.0.0.1) current node ip(127.0.0.1) [cli-version: 20190114.130720.d88275c6e9]
+debug fetched java params from etcd [cli-version: 20190114.130720.d88275c6e9]
+debug fabric classpath size: 1 [cli-version: 20190114.130720.d88275c6e9]
+debug user classpath size: 0 [cli-version: 20190114.130720.d88275c6e9]
+debug Starting fabric with args [C:\Users\jdriggin\AppData\Local\Temp\improbable_extracted_packages\87f6ffea625d605fb00b9f17d59d350f/bin/java.exe -XX:+PreserveFramePointer -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=25 -XX:G1MaxNewSizePercent=75 -XX:MaxGCPauseMillis=10 -Xmx27299M -Xms4549M -DSERVICE_ACCOUNT_REFRESH_TOKEN=some_refresh_token -DFABRIC_LOG_LEVEL=WARN -DNET_IMPROBABLE_ASSETS_DIR=C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\build\assembly -Dlogback.configurationFile=/improbable/logs/log_config.xml -DAPPDATA=/improbable/logs/fsim -DPROPERTY_EXTERNAL_IP=127.0.0.1 -DPROPERTY_INTERNAL_IP=127.0.0.1 -DPROPERTY_ASSET_DATABASE_URL=http://127.0.0.1:1238 -DLOGSINK_ADDRESS=http://localhost:22000 -DFABRIC_LOG_DIRECTORY=C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\logs\2019-04-02_14-16-46 -DMANAGED_WORKER_LOGFILE_DIRECTORY=C:\Users\jdriggin\Documents\Chessio\virtual-worlds-tutorial-master\gdk-for-unity-blank-project\logs\2019-04-02_14-16-46\workers -classpath C:\Users\jdriggin\AppData\Local\Temp\fabric_bundles\11-20190325T134942Z-2abe1e0/runtime_deploy.jar improbable.deployment.GameLauncher --deployment_project=beta_kansas_india_232 --node_name=master --fabric_public_ip=127.0.0.1 --thor_grpc_use_tls=false --auth_server_base_url=http://127.0.0.1:21000 --deployment_name=local --thor_grpc_tls_port=22000 --deployment_assembly_name=local_assembly --controller_grpc_host=127.0.0.1 --controller_grpc_port=22000 --deployment_node=master --thor_grpc_tls_host=127.0.0.1] [cli-version: 20190114.130720.d88275c6e9]
+debug JVM process id: 12836 [cli-version: 20190114.130720.d88275c6e9]
+debug trying to health check fabric node master [cli-version: 20190114.130720.d88275c6e9]
+debug error waiting for fabric node master to become healthy after 0 retries [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.module.ModuleNode] Using the new Runtime including new bridge, load balancer, and entity database. [cli-version: 20190114.130720.d88275c6e9]
+debug trying to health check fabric node master [cli-version: 20190114.130720.d88275c6e9]
+debug error waiting for fabric node master to become healthy after 1 retries [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.worker.assembly.WorkerAssemblyProviderFactory] Loaded worker assemblies for these workers types: UnityClient, UnityGameLogic, iOSClient, AndroidClient. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.worker.assembly.WorkerAssemblyProvider] The following worker configurations do not contain valid managed launch configurations for the current platform WINDOWS, and the runtime will be unable to launch managed workers of this type: [UnityClient, iOSClient, AndroidClient]. This is expected for worker types you intend to only connect manually. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.module.ModuleNode] Snapshot analysed in 0.06s. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.module.ModuleNode] Loading snapshot. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.persistence.snapshot.SnapshotLoader] Loaded 1 entities from snapshot, waiting for all of them to be created. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.module.ModuleNode] Snapshot has been successfully loaded in 0.03s. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.module.ModuleNode] SpatialOS runtime startup completed in 3.809s. [cli-version: 20190114.130720.d88275c6e9]
+debug trying to health check fabric node master [cli-version: 20190114.130720.d88275c6e9]
+debug fabric node master is ready [cli-version: 20190114.130720.d88275c6e9]
+info SpatialOS ready. Access the inspector at http://localhost:21000/inspector [cli-version: 20190114.130720.d88275c6e9][formatting_hints: category:SUCCESS duration:<seconds:6 nanos:149833100 > ]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.receptionist.BridgeAllocator] Handling connection request for worker of type UnityGameLogic trying to log in: UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded connected to SpatialOS successfully. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.receptionist.BridgeAllocator] Handling connection request for worker of type UnityClient trying to log in: UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 connected to SpatialOS successfully. [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.receptionist.BridgeAllocator] Handling connection request for worker of type UnityGameLogic trying to log in: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 connected to SpatialOS successfully. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.receptionist.BridgeAllocator] Handling connection request for worker of type UnityClient trying to log in: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 connected to SpatialOS successfully. [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NotSupportedException: Visual Studio Tools: Project file has no matching compilation unit for <AssemblyName xmlns="http://schemas.microsoft.com/developer/msbuild/2003">Improbable.Gdk.PlayerLifecycle</AssemblyName>
+SyntaxTree.VisualStudio.Unity.Bridge.ProjectFilePostprocessor.OnGeneratedCSProject (System.String path, System.String content) (at <baccc7e73250494dbca3e5b1f2d4a763>:0)
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+UnityEditor.AssetPostprocessingInternal.CallOnGeneratedCSProject (System.String path, System.String content) (at C:/buildslave/unity/build/Editor/Mono/AssetPostprocessor.cs:189)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProjectFileIfNotChanged (System.String path, System.String newContents) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:344)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProject (UnityEditor.Scripting.MonoIsland island, System.Collections.Generic.Dictionary`2[TKey,TValue] allAssetsProjectParts, System.Collections.Generic.IEnumerable`1[T] responseFilesData, System.Collections.Generic.List`1[T] allProjectIslands) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:337)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.GenerateAndWriteSolutionAndProjects (UnityEditorInternal.ScriptEditorUtility+ScriptEditor scriptEditor) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:238)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.Sync () (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:215)
+UnityEditor.SyncVS.SyncIfFirstFileOpenSinceDomainLoad () (at C:/buildslave/unity/build/Editor/Mono/SyncProject.cs:197)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] [cli-version: 20190114.130720.d88275c6e9]
+error [improbable.bridge.logging.EngineLogMessageHandler] [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NotSupportedException: Visual Studio Tools: Project file has no matching compilation unit for <AssemblyName xmlns="http://schemas.microsoft.com/developer/msbuild/2003">Improbable.Gdk.PlayerLifecycle</AssemblyName>
+SyntaxTree.VisualStudio.Unity.Bridge.ProjectFilePostprocessor.OnGeneratedCSProject (System.String path, System.String content) (at <baccc7e73250494dbca3e5b1f2d4a763>:0)
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+UnityEditor.AssetPostprocessingInternal.CallOnGeneratedCSProject (System.String path, System.String content) (at C:/buildslave/unity/build/Editor/Mono/AssetPostprocessor.cs:189)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProjectFileIfNotChanged (System.String path, System.String newContents) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:344)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProject (UnityEditor.Scripting.MonoIsland island, System.Collections.Generic.Dictionary`2[TKey,TValue] allAssetsProjectParts, System.Collections.Generic.IEnumerable`1[T] responseFilesData, System.Collections.Generic.List`1[T] allProjectIslands) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:337)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.GenerateAndWriteSolutionAndProjects (UnityEditorInternal.ScriptEditorUtility+ScriptEditor scriptEditor) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:238)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.Sync () (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:215)
+UnityEditor.SyncVS.SyncIfFirstFileOpenSinceDomainLoad () (at C:/buildslave/unity/build/Editor/Mono/SyncProject.cs:197)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.receptionist.BridgeAllocator] Handling connection request for worker of type UnityGameLogic trying to log in: UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 connected to SpatialOS successfully. [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.receptionist.BridgeAllocator] Handling connection request for worker of type UnityClient trying to log in: UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc connected to SpatialOS successfully. [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection [cli-version: 20190114.130720.d88275c6e9]
+info [improbable.bridge.v2.Bridge] The worker UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection [cli-version: 20190114.130720.d88275c6e9]
+debug Registered fabric nanny dns entries [cli-version: 20190114.130720.d88275c6e9]

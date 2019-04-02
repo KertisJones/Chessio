@@ -1,0 +1,1185 @@
+2019-04-02 14:16:50,778 INFO  [i.deployment.InternalGameLauncher] [] [] [] : Parsed 311 internal flags at startup
+2019-04-02 14:16:50,918 INFO  [i.deployment.InternalGameLauncher] [] [] [] : Flagz initialized in 0.434s.
+2019-04-02 14:16:50,920 INFO  [i.deployment.InternalGameLauncher] [] [] [] : SpatialOS runtime version: 11-20190325T134942Z-2abe1e0
+2019-04-02 14:16:51,141 INFO  [i.c.c.f.FlagzFieldRegistryUpdater] [] [] [] : Initialized Fabric flagz registry with 22 set fields.
+2019-04-02 14:16:51,575 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.discovery.StatusDiscoveryInternalService) on 127.0.0.1:5301.
+2019-04-02 14:16:51,584 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.tunnel.OrderedGrpcTunnelService) on 127.0.0.1:5301.
+2019-04-02 14:16:51,586 INFO  [improbable.module.ModuleNode] [] [] [] : Starting Fabric node as master (IP: 127.0.0.1).
+2019-04-02 14:16:51,587 INFO  [improbable.module.ModuleNode] [] [] [] : Using the new Runtime including new bridge, load balancer, and entity database.
+2019-04-02 14:16:51,588 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_NODES_STARTED
+2019-04-02 14:16:51,588 INFO  [improbable.module.ModuleNode] [] [] [] : Node master has started, waiting for other nodes to reach the same checkpoint.
+2019-04-02 14:16:51,588 INFO  [improbable.module.ModuleNode] [] [] [] : All nodes have been started.
+2019-04-02 14:16:51,593 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ModuleService) on 127.0.0.1:9300.
+2019-04-02 14:16:51,601 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.HealthCheckService) on 127.0.0.1:9301.
+2019-04-02 14:16:51,608 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.perf.PerfInternalService) on 127.0.0.1:9302.
+2019-04-02 14:16:51,615 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.contention.ContentionInternalService) on 127.0.0.1:9303.
+2019-04-02 14:16:51,630 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.FeatureService) on 127.0.0.1:9304.
+2019-04-02 14:16:51,654 INFO  [i.c.config.flagz.WorkerFlagzUpdater] [] [] [] : Initialized worker flagz registry with 0 set fields.
+2019-04-02 14:16:51,670 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded world extents: WorldExtents{proto=rectangles {
+  bottom_left {
+    x: -2500.0
+    z: -2500.0
+  }
+  top_right {
+    x: 2500.0
+    z: 2500.0
+  }
+}
+bounding_rectangle {
+  bottom_left {
+    x: -2500.0
+    z: -2500.0
+  }
+  top_right {
+    x: 2500.0
+    z: 2500.0
+  }
+}
+}
+2019-04-02 14:16:52,642 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded node configuration: node_name: "master"
+roles: MASTER
+roles: INSPECTION
+roles: RECEPTIONIST
+roles: BRIDGE
+roles: AUTHORITY_ASSIGNER
+roles: TURF_ENFORCER
+roles: ENTITY_DB
+bridge_service_configurations {
+  id: "bridge-service"
+  deployment_certificate: "-----BEGIN CERTIFICATE-----\nMIIC6DCCAdACAQEwDQYJKoZIhvcNAQEFBQAwOjELMAkGA1UEBhMCR0IxEzARBgNV\nBAoMCkltcHJvYmFibGUxFjAUBgNVBAMMDWltcHJvYmFibGUuaW8wHhcNMTkwMzMx\nMTgxNjUyWhcNMjAwNDAxMTgxNjUyWjA6MQswCQYDVQQGEwJHQjETMBEGA1UECgwK\nSW1wcm9iYWJsZTEWMBQGA1UEAwwNaW1wcm9iYWJsZS5pbzCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAPfQVTWCFDzStTPKN9qqIedTPrNjG4/wYRo3gElu\nVQ04K0GcxWt7TeUZzRXf/yauEBB9oXpwY9okD+55+QPPxJnFUdyWfS8ke9/HdiRH\ne5FXxPQ5akPwFuXGuPJsQxXc2Uvpn4CuTUvkAa+90vKHZmX9JLTnE3KZPKneP0vY\nrG6NYQcCkQlxK8CYPWvsH0qAOJlGGwPfJ83w6MFO98mGa12ro/W4o1lDuh8aoAUf\nT55fPPJ2+1Tde3qgH4eCUusT83U32oKB6xnIQO6T61kiqNQbAUJU1kG4NHRZ5pUo\nQ0CoHDGBO9Rb7VpJeVXI/Cw074tONlvt+Qbsz8u2pUztlnMCAwEAATANBgkqhkiG\n9w0BAQUFAAOCAQEAnwGLpHT9rzZEjY2X7AD/9VaG1XtNW4q/SkHjgIRLsSJeh/pP\nYcRA+8CAgNKfacVAGLvYInaMa7bszArml7ctfG+ZARb5g4LyRycIfbA2ryD9X9S2\nCbsrLD9aWmQpQ//cI5T5gCAQnUxgMWkuvQn0XE4lfaNS17VZHvBdiQ6rcRi6km8c\nJdq8z7KBoIsKyTC/uK1WFPgRvxKt22mec9EWT6FmXLJcqtaiaB9Q1lyTCK14hYkg\nfmreQNrOh5cmi7Qy2GYo9BkFCa6/9V6mECJ0FT11PyywI6Lp/1DRJPStLWKDn+7T\njs2vjxG3sAeKkzRh7VKMoAuUyT6mzC3wRzkLFw==\n-----END CERTIFICATE-----\n"
+  deployment_private_key: "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA99BVNYIUPNK1M8o32qoh51M+s2Mbj/BhGjeASW5VDTgrQZzF\na3tN5RnNFd//Jq4QEH2henBj2iQP7nn5A8/EmcVR3JZ9LyR738d2JEd7kVfE9Dlq\nQ/AW5ca48mxDFdzZS+mfgK5NS+QBr73S8odmZf0ktOcTcpk8qd4/S9isbo1hBwKR\nCXErwJg9a+wfSoA4mUYbA98nzfDowU73yYZrXauj9bijWUO6HxqgBR9Pnl888nb7\nVN17eqAfh4JS6xPzdTfagoHrGchA7pPrWSKo1BsBQlTWQbg0dFnmlShDQKgcMYE7\n1FvtWkl5Vcj8LDTvi042W+35BuzPy7alTO2WcwIDAQABAoIBAHkVjGzmsCi/89Xo\nWr43HvW+kQZpyI/eLjP3JnG6vUgGR+x5Q2UvDHKC1th3aF5n8mV8XShMPh3aPQaT\nBn88R52y8jrMNUKRmw1OkoVLgC8WKaADZc7oQufm33tkNqs6C9qxvkPL5uzL7Z8H\nK0lhq0DuHb9eoPv/r8p4U4klx6sD518HeZcCn8K2lBhiDUScgLhSaqsRFiYjsUm9\ncpWCUrcFDy5Riyj+DXaojRLW2/jCsjivFMhyyIj3JWJHuU+DC/3ixHDOnT3CHo0m\nK4ciUrZyI4ma5RZf7qyK8wBmJOshS2x0woA1vv9kqcMzulaOia4YpnsZEa0Ii7rk\ntQ0RSXECgYEA/GDYjk+rkxhkZImrxgUZkRrTvp47sqaHySlUEBLdR6B8z04Qn5Hf\nSVRMNunnKXKxwpxJBk2dhlqxsRc432RidU4KQcYWAZSYCw7kdxJY4j+/QHrmmXmW\nDZl3kzW0Khq6G4/5TCa5ZYoc9m0SZW863qm1s+mb6kTtBkb/nPsCEx8CgYEA+163\n7JO3YDy0qgc/rhJNTRHK1g+/XV5VipzVumSdJWQgP0IzRGbz9EvONHGDNgTNk3HA\nCXdN5F7JZeezMJouWtubpXd3739HCk9AOrCOgXPxH1smTB7+WBC88m/NFR/unyHL\nGTGndiLfKc2p9g/4AGAhTpByiockUOLGWbSyhi0CgYEAwAPW/39yJLocN7ne7QwY\nRaRJke/Fr8iv6sb85DXWEZbzHq5gS2eqoJn4WpdfftN6l3xcuuT2grAiHYBzjtNL\nbcBwYVaai51IiLFN9aIJ6iliE2buZ7pwBezLYz8q0hX/ntTNcbjMuYp5OqwFoRMd\nkSdBzZ5hN741L994vzDihTUCgYBRsnMsnMXYrWI6cKittp0RE1tNP0j+244Jwvdj\n4ReB84zXgniPHrbjC1A1kz8F64G1Dh9P9EqIkpX6XNfMUBAIz59CpBWC7Wb1XtSN\nPpzSThBsFH/Z9ajMjoQad2O8Hei8J4uO4KiAqMzHFWTL6Fy+IoAwvJm9lDalY078\nENKE8QKBgG7omr5K6HhmhJ9JhCAxOjNcM/zYynZ0ADwpq07zHtpc+Fgjgan1StvA\n0Nijj/hahKap8F4IUn9ha7bFyzUkAhgqXqMR9yPRGW+aNKvpjqnJSXCqVMr0jXIa\neVlu3S2MIEm8qd/9JDFSnCg8zLTL/2AicTiv09/7kP3AXyFmp8rg\n-----END RSA PRIVATE KEY-----\n"
+}
+turf_enforcer_service_configurations {
+  service_bounds {
+    min_x: -2500.0
+    min_z: -2500.0
+    max_x: 2500.0
+    max_z: 2500.0
+  }
+  enforcer_bounds {
+    min_x: -2500.0
+    min_z: -2500.0
+    max_x: 2500.0
+    max_z: 2500.0
+  }
+}
+database_configurations {
+}
+authority_assigner_configurations {
+}
+receptionist_service_configuration {
+  deployment_certificate: "-----BEGIN CERTIFICATE-----\nMIIC6DCCAdACAQEwDQYJKoZIhvcNAQEFBQAwOjELMAkGA1UEBhMCR0IxEzARBgNV\nBAoMCkltcHJvYmFibGUxFjAUBgNVBAMMDWltcHJvYmFibGUuaW8wHhcNMTkwMzMx\nMTgxNjUyWhcNMjAwNDAxMTgxNjUyWjA6MQswCQYDVQQGEwJHQjETMBEGA1UECgwK\nSW1wcm9iYWJsZTEWMBQGA1UEAwwNaW1wcm9iYWJsZS5pbzCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAPfQVTWCFDzStTPKN9qqIedTPrNjG4/wYRo3gElu\nVQ04K0GcxWt7TeUZzRXf/yauEBB9oXpwY9okD+55+QPPxJnFUdyWfS8ke9/HdiRH\ne5FXxPQ5akPwFuXGuPJsQxXc2Uvpn4CuTUvkAa+90vKHZmX9JLTnE3KZPKneP0vY\nrG6NYQcCkQlxK8CYPWvsH0qAOJlGGwPfJ83w6MFO98mGa12ro/W4o1lDuh8aoAUf\nT55fPPJ2+1Tde3qgH4eCUusT83U32oKB6xnIQO6T61kiqNQbAUJU1kG4NHRZ5pUo\nQ0CoHDGBO9Rb7VpJeVXI/Cw074tONlvt+Qbsz8u2pUztlnMCAwEAATANBgkqhkiG\n9w0BAQUFAAOCAQEAnwGLpHT9rzZEjY2X7AD/9VaG1XtNW4q/SkHjgIRLsSJeh/pP\nYcRA+8CAgNKfacVAGLvYInaMa7bszArml7ctfG+ZARb5g4LyRycIfbA2ryD9X9S2\nCbsrLD9aWmQpQ//cI5T5gCAQnUxgMWkuvQn0XE4lfaNS17VZHvBdiQ6rcRi6km8c\nJdq8z7KBoIsKyTC/uK1WFPgRvxKt22mec9EWT6FmXLJcqtaiaB9Q1lyTCK14hYkg\nfmreQNrOh5cmi7Qy2GYo9BkFCa6/9V6mECJ0FT11PyywI6Lp/1DRJPStLWKDn+7T\njs2vjxG3sAeKkzRh7VKMoAuUyT6mzC3wRzkLFw==\n-----END CERTIFICATE-----\n"
+}
+
+2019-04-02 14:16:53,066 INFO  [i.e.schema.ParsedFileDescriptorSet] [] [] [] : Parsed file descriptors of 11 proto files.
+2019-04-02 14:16:53,127 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.Interest, improbable.restricted.System, improbable.restricted.Worker, improbable.restricted.PlayerClient, improbable.player_lifecycle.PlayerHeartbeatClient, improbable.player_lifecycle.PlayerHeartbeatServer, improbable.player_lifecycle.OwningWorker, improbable.transform.TransformInternal, improbable.player.PlayerControls, improbable.player_lifecycle.PlayerCreator]
+2019-04-02 14:16:53,140 INFO  [i.entity.schema.SchemaFactory] [] [] [] : Found components: [improbable.EntityAcl, improbable.Metadata, improbable.Position, improbable.Persistence, improbable.Interest, improbable.restricted.System, improbable.restricted.Worker, improbable.restricted.PlayerClient, improbable.player_lifecycle.PlayerHeartbeatClient, improbable.player_lifecycle.PlayerHeartbeatServer, improbable.internal.EntityAuthority, improbable.internal.EntityAuthorityIntent, improbable.fabric.internal.Loadtest, improbable.transform.TransformInternal, improbable.player_lifecycle.PlayerCreator, improbable.player.PlayerControls, improbable.player_lifecycle.OwningWorker]
+2019-04-02 14:16:53,147 INFO  [improbable.module.ModuleNode] [] [] [] : Successfully loaded schema for entities
+2019-04-02 14:16:53,154 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Parsed 0 worker loadbalancing configuration(s)
+2019-04-02 14:16:53,157 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : Successfully loaded loadbalancing configurations: {}
+2019-04-02 14:16:53,229 INFO  [i.w.a.WorkerAssemblyProviderFactory] [] [] [] : Loaded worker assemblies for these workers types: UnityClient, UnityGameLogic, iOSClient, AndroidClient.
+2019-04-02 14:16:53,232 INFO  [improbable.module.ModuleNode] [] [] [] : Loaded worker assemblies: [worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "beta_kansas_india_232"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityClient"
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "UnityClient"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 500.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+, worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "beta_kansas_india_232"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "UnityGameLogic"
+  }
+}
+worker_launch_configuration {
+  platform: WINDOWS
+  worker_zip {
+    command: "UnityGameLogic@Windows.exe"
+    argument: "+workerType"
+    argument: "UnityGameLogic"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistHost"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-batchmode"
+    argument: "-nographics"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    worker_location {
+      filename: "UnityGameLogic@Windows.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: MACOS
+  worker_zip {
+    command: "UnityGameLogic@Mac.app/Contents/MacOS/UnityGameLogic@Mac"
+    argument: "+workerType"
+    argument: "UnityGameLogic"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistHost"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-batchmode"
+    argument: "-nographics"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    worker_location {
+      filename: "UnityGameLogic@Mac.zip"
+    }
+  }
+}
+worker_launch_configuration {
+  platform: LINUX
+  worker_zip {
+    command: "UnityGameLogic@Linux"
+    argument: "+workerType"
+    argument: "UnityGameLogic"
+    argument: "+workerId"
+    argument: "${IMPROBABLE_WORKER_ID}"
+    argument: "+projectName"
+    argument: "${IMPROBABLE_PROJECT_NAME}"
+    argument: "+receptionistHost"
+    argument: "${IMPROBABLE_RECEPTIONIST_HOST}"
+    argument: "+receptionistPort"
+    argument: "${IMPROBABLE_RECEPTIONIST_PORT}"
+    argument: "+linkProtocol"
+    argument: "RakNet"
+    argument: "-batchmode"
+    argument: "-nographics"
+    argument: "-logfile"
+    argument: "${IMPROBABLE_LOG_FILE}"
+    worker_location {
+      filename: "UnityGameLogic@Linux.zip"
+    }
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "UnityGameLogic"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 500.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+, worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "beta_kansas_india_232"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "iOSClient"
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "iOSClient"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 100.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+, worker_assembly_id {
+  assembly_id {
+    project_id {
+      name: "beta_kansas_india_232"
+    }
+    name: "local_assembly"
+  }
+  name {
+    name: "AndroidClient"
+  }
+}
+bridge_configuration {
+  worker_attribute_set {
+    attribute {
+      name: "AndroidClient"
+    }
+  }
+  entity_interest {
+    range_entity_interest {
+      radius: 100.0
+    }
+  }
+  component_delivery {
+    checkout_all_initially: true
+  }
+}
+]
+2019-04-02 14:16:53,235 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : Worker configuration for 'UnityClient' does not contain a launch configuration for the current platform 'WINDOWS', so Fabric will not start any managed workers of this type
+2019-04-02 14:16:53,235 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : Worker configuration for 'iOSClient' does not contain a launch configuration for the current platform 'WINDOWS', so Fabric will not start any managed workers of this type
+2019-04-02 14:16:53,236 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : Worker configuration for 'AndroidClient' does not contain a launch configuration for the current platform 'WINDOWS', so Fabric will not start any managed workers of this type
+2019-04-02 14:16:53,236 INFO  [i.w.assembly.WorkerAssemblyProvider] [] [] [] : The following worker configurations do not contain valid managed launch configurations for the current platform WINDOWS, and the runtime will be unable to launch managed workers of this type: [UnityClient, iOSClient, AndroidClient]. This is expected for worker types you intend to only connect manually.
+2019-04-02 14:16:53,237 INFO  [improbable.module.ModuleNode] [] [] [] : Validating snapshot at startup and determining max entity id
+2019-04-02 14:16:53,242 INFO  [i.p.s.c.ThorSnapshotServiceClient] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2019-04-02 14:16:53,265 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20190402141648053
+2019-04-02 14:16:53,300 INFO  [improbable.module.ModuleNode] [] [] [] : Snapshot analysed in 0.06s.
+2019-04-02 14:16:53,301 INFO  [improbable.module.ModuleNode] [] [] [] : Determined the first entity id for the id assigner as 2
+2019-04-02 14:16:53,305 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.entityid.EntityIdInternalService) on 127.0.0.1:9305.
+2019-04-02 14:16:53,310 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.time.TimeSyncInternalService) on 127.0.0.1:9306.
+2019-04-02 14:16:53,316 INFO  [improbable.core.time.TimeSyncClient] [] [] [] : Starting clock synchronizer running every 61476ms
+2019-04-02 14:16:53,319 INFO  [i.l.v2.config.LoadbalancerV2Config] [] [] [] : Using new loadbalancing strategy config.
+2019-04-02 14:16:53,333 INFO  [i.w.permissions.PermissionsFactory] [] [] [] : Created permissions manager with permissions: {UnityGameLogic=Permissions{{/sys/CreateEntity=, /sys/DeleteEntity=, /cmd/SystemEntity=, /sys/EntityQuery={"component":["*"]}}}, UnityClient=Permissions{{/sys/CreateEntity=, /sys/DeleteEntity=, /cmd/SystemEntity=, /sys/EntityQuery={"component":["*"]}}}}
+2019-04-02 14:16:53,356 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: []. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:16:53,371 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.worker.oracle.WorkerOracleInternalService) on 127.0.0.1:9307.
+2019-04-02 14:16:53,386 INFO  [improbable.module.ModuleNode] [] [] [] : Starting BridgeOracle on master
+2019-04-02 14:16:53,405 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.bridge.oracle.BridgeOracleInternalService) on 127.0.0.1:9308.
+2019-04-02 14:16:53,406 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeOracle to have started
+2019-04-02 14:16:53,406 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeOracle started
+2019-04-02 14:16:53,419 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.bridge.service.oracle.BridgeServiceOracleInternalService) on 127.0.0.1:9309.
+2019-04-02 14:16:53,420 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for the BridgeModuleOracle to have started
+2019-04-02 14:16:53,421 INFO  [improbable.module.ModuleNode] [] [] [] : Received BridgeModuleOracle started
+2019-04-02 14:16:53,421 INFO  [improbable.module.ModuleNode] [] [] [] : Creating database v2 client for single node deployment.
+2019-04-02 14:16:53,468 INFO  [improbable.module.ModuleNode] [] [] [] : Creating entity lifecycle client.
+2019-04-02 14:16:53,470 INFO  [improbable.module.ModuleNode] [] [] [] : Creating servlet container.
+2019-04-02 14:16:53,597 INFO  [improbable.http.ServletContainer$] [] [] [] : Starting servlet container on port 5006.
+2019-04-02 14:16:53,597 INFO  [org.eclipse.jetty.server.Server] [] [] [] : jetty-8.y.z-SNAPSHOT
+2019-04-02 14:16:53,634 INFO  [o.e.jetty.server.AbstractConnector] [] [] [] : Started SelectChannelConnector@0.0.0.0:5006
+2019-04-02 14:16:53,634 INFO  [improbable.http.ServletContainer$] [] [] [] : Servlet container started
+2019-04-02 14:16:53,635 INFO  [improbable.module.ModuleNode] [] [] [] : Starting 1 turf enforcer services
+2019-04-02 14:16:53,636 INFO  [improbable.module.ModuleNode] [] [] [] : Starting turf enforcer service with configuration service_bounds {
+  min_x: -2500.0
+  min_z: -2500.0
+  max_x: 2500.0
+  max_z: 2500.0
+}
+enforcer_bounds {
+  min_x: -2500.0
+  min_z: -2500.0
+  max_x: 2500.0
+  max_z: 2500.0
+}
+
+2019-04-02 14:16:53,661 INFO  [i.l.v.e.TurfEnforcementInternalServiceImpl] [] [] [] : Turf enforcement service starting 1 turf enforcers
+2019-04-02 14:16:53,667 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.loadbalancing.TurfEnforcementInternalService) on 127.0.0.1:9310.
+2019-04-02 14:16:53,671 INFO  [improbable.module.ModuleNode] [] [] [] : Starting 1 authority assigners
+2019-04-02 14:16:53,683 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.authorityassigner.AuthorityAssignerInternalService) on 127.0.0.1:9311.
+2019-04-02 14:16:53,691 INFO  [i.c.discovery.common.ServiceFinder] [] [] [] : Discovered all 1 AuthorityAssigner services
+2019-04-02 14:16:53,694 INFO  [improbable.module.ModuleNode] [] [] [] : Starting 1 bridge services
+2019-04-02 14:16:53,728 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.bridge.BridgeInternalService) on 127.0.0.1:9312.
+2019-04-02 14:16:53,728 INFO  [i.module.bridge.BridgeModule] [] [] [] : Waiting for BridgeModuleOracle service to be available
+2019-04-02 14:16:53,735 INFO  [i.module.bridge.BridgeModule] [] [] [] : Registered bridge service (bridge-service) on BridgeModuleOracleService
+2019-04-02 14:16:53,736 INFO  [improbable.module.ModuleNode] [] [] [] : Waiting for 1 bridge service(s) to start.
+2019-04-02 14:16:53,736 INFO  [improbable.module.ModuleNode] [] [] [] : All 1 bridge service(s) have started.
+2019-04-02 14:16:53,741 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.receptionist.ReceptionistInternalService) on 127.0.0.1:9313.
+2019-04-02 14:16:53,765 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.ReceptionistService) on 127.0.0.1:7777.
+2019-04-02 14:16:53,765 INFO  [improbable.module.ModuleNode] [] [] [] : Starting inspection service
+2019-04-02 14:16:53,796 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.InspectionService) on 127.0.0.1:9314.
+2019-04-02 14:16:53,803 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.LoadbalancerToolsService) on 127.0.0.1:9315.
+2019-04-02 14:16:53,803 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: ALL_MODULES_STARTED
+2019-04-02 14:16:53,804 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on this node started, waiting for other nodes to reach the same checkpoint.
+2019-04-02 14:16:53,804 INFO  [improbable.module.ModuleNode] [] [] [] : All modules on all nodes have been started.
+2019-04-02 14:16:53,804 INFO  [improbable.module.ModuleNode] [] [] [] : Loading snapshot.
+2019-04-02 14:16:53,804 INFO  [i.p.s.c.ThorSnapshotServiceClient] [] [] [] : Requesting download URL for Snapshot(local@latest) matching []
+2019-04-02 14:16:53,816 INFO  [i.p.s.storage.LegacySnapshotStorage] [] [] [] : Downloading snapshot from http://127.0.0.1:21000/snapshots/20190402141648053
+2019-04-02 14:16:53,827 INFO  [i.p.snapshot.SnapshotLoader] [] [] [] : Loaded 1 entities from snapshot, waiting for all of them to be created.
+2019-04-02 14:16:53,836 INFO  [improbable.module.ModuleNode] [] [] [] : Snapshot has been successfully loaded in 0.03s.
+2019-04-02 14:16:53,836 INFO  [improbable.module.ModuleNode] [] [] [] : Starting SnapshotService.
+2019-04-02 14:16:53,842 INFO  [i.core.discovery.server.PublicServer] [] [] [] : Registered Service(improbable.platform.runtime.SnapshotService) on 127.0.0.1:9316.
+2019-04-02 14:16:53,842 INFO  [i.c.d.client.CheckpointDiscoveryImpl] [] [] [] : Reached a checkpoint: LOAD_SNAPSHOT_FINISHED
+2019-04-02 14:16:53,843 INFO  [improbable.module.ModuleNode] [] [] [] : Starting the internal Loadbalancer Service.
+2019-04-02 14:16:53,859 INFO  [i.core.discovery.server.LocalServer] [] [] [] : Registered Service(improbable.fabric.internal.service.loadbalancing.LoadbalancingInternalService) on 127.0.0.1:9317.
+2019-04-02 14:16:53,859 INFO  [improbable.module.ModuleNode] [] [] [] : SpatialOS runtime startup completed in 3.809s.
+2019-04-02 14:16:53,867 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 
+2019-04-02 14:17:03,362 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:17:13,358 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:17:23,358 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:17:23,359 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:17:33,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:17:43,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:17:53,356 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:17:53,358 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:18:03,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:18:13,356 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:18:23,356 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:18:23,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:18:33,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:18:43,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:18:53,356 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:18:53,358 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:19:03,355 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:19:13,355 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:19:23,356 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:19:23,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:19:24,685 INFO  [i.receptionist.BridgeAllocator] [] [] [] : Handling connection request for worker of type UnityGameLogic trying to log in: UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded
+2019-04-02 14:19:24,703 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 
+2019-04-02 14:19:24,703 INFO  [i.b.s.BridgeServiceOracleInternalServiceImpl] [] [] [] : BridgeServicePicker returned service legacy_guid: "bridge-service"
+address {
+  host: "127.0.0.1"
+  port: 9312
+}
+ with load BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0) for Bridge(UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded)
+2019-04-02 14:19:24,707 INFO  [i.r.UnmanagedLoadbalancedWorkerHandler] [] [] [] : Connecting worker UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded successfully added to the loadbalancing strategy. Assigned virtual worker: [0].
+2019-04-02 14:19:24,708 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Creating Bridge v2: link_settings {
+  raknet_settings {
+    heartbeat_timeout_ms: 60000
+    initial_connection_timeout_ms: 60000
+  }
+}
+worker_id: "UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded"
+worker_name: "UnityGameLogic"
+use_session: true
+bridge_protocol_settings {
+  worker_supported_diffing_formats: DIRECT
+  worker_supported_diffing_formats: BINARY_V1
+  worker_supported_diffing_formats: QUEUE_V1
+  worker_supported_diffing_formats: HEURISTIC_V1
+}
+
+2019-04-02 14:19:24,711 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ turfs {
+  entity_query {
+    constraint {
+      write_acl_constraint {
+        requirement_set {
+          attribute_set {
+            attribute: "UnityGameLogic"
+          }
+        }
+      }
+    }
+    result_type {
+    }
+  }
+  requirement_set_constraint {
+    attribute_set {
+      attribute: "UnityGameLogic"
+    }
+  }
+  intended_worker_id: "UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded"
+}
+
+2019-04-02 14:19:24,858 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityGameLogic]: [SingletonLoadbalancerParams{hexGridMode=OFF, maxWorkers=0, initialWorkers=0, statusReportPeriodMs=2147483647, pointsOfInterestEnabled=false, hexGridSolution=Empty, pointsOfInterestSolution=Empty}]
+2019-04-02 14:19:24,866 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded registered with bridge internal service
+2019-04-02 14:19:24,874 INFO  [improbable.bridge.v2.Bridge] [] [] [] : Ready for worker connection
+2019-04-02 14:19:24,976 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded connected to SpatialOS successfully.
+2019-04-02 14:19:24,981 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge for worker UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded started successfully.
+2019-04-02 14:19:29,308 INFO  [i.receptionist.BridgeAllocator] [] [] [] : Handling connection request for worker of type UnityClient trying to log in: UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8
+2019-04-02 14:19:29,310 INFO  [i.b.s.BridgeServiceOracleInternalServiceImpl] [] [] [] : BridgeServicePicker returned service legacy_guid: "bridge-service"
+address {
+  host: "127.0.0.1"
+  port: 9312
+}
+ with load BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0) for Bridge(UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8)
+2019-04-02 14:19:29,311 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Creating Bridge v2: link_settings {
+  raknet_settings {
+    heartbeat_timeout_ms: 60000
+    initial_connection_timeout_ms: 60000
+  }
+}
+worker_id: "UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8"
+worker_name: "UnityClient"
+use_session: true
+bridge_protocol_settings {
+  worker_supported_diffing_formats: DIRECT
+  worker_supported_diffing_formats: BINARY_V1
+  worker_supported_diffing_formats: QUEUE_V1
+  worker_supported_diffing_formats: HEURISTIC_V1
+}
+
+2019-04-02 14:19:29,340 INFO  [i.l.params.LoadbalancerParamsFactory] [] [] [] : LoadbalancerParams for worker type [UnityClient]: [SingletonLoadbalancerParams{hexGridMode=OFF, maxWorkers=0, initialWorkers=0, statusReportPeriodMs=2147483647, pointsOfInterestEnabled=false, hexGridSolution=Empty, pointsOfInterestSolution=Empty}]
+2019-04-02 14:19:29,340 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 registered with bridge internal service
+2019-04-02 14:19:29,341 INFO  [improbable.bridge.v2.Bridge] [] [] [] : Ready for worker connection
+2019-04-02 14:19:29,461 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 connected to SpatialOS successfully.
+2019-04-02 14:19:29,463 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge for worker UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 started successfully.
+2019-04-02 14:19:33,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:19:43,359 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:19:49,472 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection
+2019-04-02 14:19:49,474 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 unregistered with bridge internal service
+2019-04-02 14:19:49,481 INFO  [i.bridge.v2.view.DatabaseObserver] [] [] [] : Database stream completed.
+2019-04-02 14:19:49,480 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge(UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8) stopped.
+2019-04-02 14:19:49,481 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 4
+2019-04-02 14:19:49,481 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 4
+2019-04-02 14:19:50,915 WARN  [i.c.r.i.CloseLoggingServerInterceptor] [] [] [] : improbable.fabric.internal.service.bridge.BridgeInternalService/InvokeCommand closed with status Status{code=NOT_FOUND, description=Bridge UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 not found on this node, cause=io.grpc.StatusException: NOT_FOUND: Bridge UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 not found on this node
+	at io.grpc.Status.asException(Status.java:534)
+	at improbable.bridge.internalservice.BridgeInternalServiceImpl.getBridgeInterface(BridgeInternalServiceImpl.java:409)
+	at improbable.bridge.internalservice.BridgeInternalServiceImpl.invokeCommand(BridgeInternalServiceImpl.java:121)
+	at improbable.fabric.internal.service.bridge.BridgeInternalServiceGrpc$MethodHandlers.invoke(BridgeInternalServiceGrpc.java:707)
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171)
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35)
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:706)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at improbable.common.async.FabricListeningExecutorService.lambda$logAndSwallowException$3(FabricListeningExecutorService.java:233)
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$1(FabricListeningExecutorService.java:181)
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+}
+2019-04-02 14:19:50,920 WARN  [i.c.r.i.CloseLoggingClientInterceptor] [] [] [] : improbable.fabric.internal.service.bridge.BridgeInternalService/InvokeCommand closed with status Status{code=NOT_FOUND, description=Bridge UnityClient-a7a61a61-b318-4974-b221-3857ddea66f8 not found on this node, cause=null}
+java.lang.Exception: this exception itself is not an error but provides context in its stack trace
+	at improbable.common.async.ContextThrowable.create(ContextThrowable.java:32) ~[runtime_deploy.jar:na]
+	at improbable.common.rpc.interceptors.CloseLoggingClientInterceptor$CloseLoggingClientCall.<init>(CloseLoggingClientInterceptor.java:47) ~[runtime_deploy.jar:na]
+	at improbable.common.rpc.interceptors.CloseLoggingClientInterceptor$CloseLoggingClientCall.<init>(CloseLoggingClientInterceptor.java:32) ~[runtime_deploy.jar:na]
+	at improbable.common.rpc.interceptors.CloseLoggingClientInterceptor.interceptCall(CloseLoggingClientInterceptor.java:29) ~[runtime_deploy.jar:na]
+	at io.grpc.ClientInterceptors$InterceptorChannel.newCall(ClientInterceptors.java:156) ~[runtime_deploy.jar:na]
+	at me.dinowernli.grpc.prometheus.MonitoringClientInterceptor.interceptCall(MonitoringClientInterceptor.java:38) ~[runtime_deploy.jar:na]
+	at io.grpc.ClientInterceptors$InterceptorChannel.newCall(ClientInterceptors.java:156) ~[runtime_deploy.jar:na]
+	at improbable.fabric.internal.service.bridge.BridgeInternalServiceGrpc$BridgeInternalServiceFutureStub.invokeCommand(BridgeInternalServiceGrpc.java:634) ~[runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClientImpl.invokeCommandOnWorker(BridgeInternalServiceClientImpl.java:222) ~[runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClientImpl.lambda$invokeCommand$2(BridgeInternalServiceClientImpl.java:142) ~[runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeServiceTaskRetrier.lambda$attemptTask$0(BridgeServiceTaskRetrier.java:112) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:213) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:202) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:118) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.ImmediateFuture.addListener(ImmediateFuture.java:39) ~[runtime_deploy.jar:na]
+	at improbable.common.async.ForwardingLucidFuture.addListener(ForwardingLucidFuture.java:24) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.create(AbstractTransformFuture.java:39) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.Futures.transformAsync(Futures.java:464) ~[runtime_deploy.jar:na]
+	at improbable.common.async.LucidFuture.transformAsyncDirect(LucidFuture.java:224) ~[runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeServiceTaskRetrier.attemptTask(BridgeServiceTaskRetrier.java:112) ~[runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeServiceTaskRetrier.go(BridgeServiceTaskRetrier.java:76) ~[runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClientImpl.invoke(BridgeInternalServiceClientImpl.java:261) ~[runtime_deploy.jar:na]
+	at improbable.bridge.client.BridgeInternalServiceClientImpl.invokeCommand(BridgeInternalServiceClientImpl.java:141) ~[runtime_deploy.jar:na]
+	at improbable.entity.client.EntityServiceClientImpl.lambda$invokeWithDatabaseAuthorityResolution$1(EntityServiceClientImpl.java:77) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:213) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.doTransform(AbstractTransformFuture.java:202) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:118) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1138) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:958) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.setFuture(AbstractFuture.java:789) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.setResult(AbstractTransformFuture.java:224) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$AsyncTransformFuture.setResult(AbstractTransformFuture.java:202) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:163) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1138) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:958) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:726) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture$TransformFuture.setResult(AbstractTransformFuture.java:247) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractTransformFuture.run(AbstractTransformFuture.java:163) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.executeListener(AbstractFuture.java:1138) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.complete(AbstractFuture.java:958) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AbstractFuture.set(AbstractFuture.java:726) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.CollectionFuture$CollectionFutureRunningState.handleAllCompleted(CollectionFuture.java:71) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState.processCompleted(AggregateFuture.java:257) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState.decrementCountAndMaybeComplete(AggregateFuture.java:244) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState.access$300(AggregateFuture.java:92) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.AggregateFuture$RunningState$1.run(AggregateFuture.java:149) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.DirectExecutor.execute(DirectExecutor.java:30) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.ExecutionList.executeListener(ExecutionList.java:141) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.ExecutionList.execute(ExecutionList.java:130) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.ListenableFutureTask.done(ListenableFutureTask.java:86) ~[runtime_deploy.jar:na]
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:384) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.set(FutureTask.java:233) ~[na:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:274) ~[na:1.8.0_161]
+	at improbable.db.odb.async.TwoPriorityExecutor.runNext(TwoPriorityExecutor.java:70) ~[runtime_deploy.jar:na]
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$1(FabricListeningExecutorService.java:181) ~[runtime_deploy.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:125) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:57) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:78) ~[runtime_deploy.jar:na]
+	at improbable.scheduler.TaskQueueExecutor$RunnableTaskRunner.run(TaskQueueExecutor.java:123) ~[runtime_deploy.jar:na]
+	at improbable.scheduler.TaskQueueExecutor$RunnableTaskRunner.run(TaskQueueExecutor.java:120) ~[runtime_deploy.jar:na]
+	at improbable.scheduler.TaskQueue.runNext(TaskQueue.java:112) ~[runtime_deploy.jar:na]
+	at improbable.scheduler.TaskQueueScheduler.runTaskFromQueue(TaskQueueScheduler.java:96) ~[runtime_deploy.jar:na]
+	at improbable.scheduler.TaskQueueScheduler.lambda$submit$0(TaskQueueScheduler.java:80) ~[runtime_deploy.jar:na]
+	at improbable.common.async.FabricListeningExecutorService.lambda$instrumentRunnable$1(FabricListeningExecutorService.java:181) ~[runtime_deploy.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_161]
+	at com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleTask.runInterruptibly(TrustedListenableFutureTask.java:125) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.InterruptibleTask.run(InterruptibleTask.java:57) ~[runtime_deploy.jar:na]
+	at com.google.common.util.concurrent.TrustedListenableFutureTask.run(TrustedListenableFutureTask.java:78) ~[runtime_deploy.jar:na]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402) ~[na:1.8.0_161]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[na:1.8.0_161]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[na:1.8.0_161]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) ~[na:1.8.0_161]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[na:1.8.0_161]
+2019-04-02 14:19:52,747 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection
+2019-04-02 14:19:52,747 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded unregistered with bridge internal service
+2019-04-02 14:19:52,749 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge(UnityGameLogic-1db667e5-c70f-483b-9e6b-00b915447ded) stopped.
+2019-04-02 14:19:52,749 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 3
+2019-04-02 14:19:52,749 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 3
+2019-04-02 14:19:53,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:19:53,359 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:19:53,364 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 
+2019-04-02 14:19:58,059 INFO  [i.receptionist.BridgeAllocator] [] [] [] : Handling connection request for worker of type UnityGameLogic trying to log in: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8
+2019-04-02 14:19:58,061 INFO  [i.b.s.BridgeServiceOracleInternalServiceImpl] [] [] [] : BridgeServicePicker returned service legacy_guid: "bridge-service"
+address {
+  host: "127.0.0.1"
+  port: 9312
+}
+ with load BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0) for Bridge(UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8)
+2019-04-02 14:19:58,062 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 
+2019-04-02 14:19:58,062 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Creating Bridge v2: link_settings {
+  raknet_settings {
+    heartbeat_timeout_ms: 60000
+    initial_connection_timeout_ms: 60000
+  }
+}
+worker_id: "UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8"
+worker_name: "UnityGameLogic"
+use_session: true
+bridge_protocol_settings {
+  worker_supported_diffing_formats: DIRECT
+  worker_supported_diffing_formats: BINARY_V1
+  worker_supported_diffing_formats: QUEUE_V1
+  worker_supported_diffing_formats: HEURISTIC_V1
+}
+
+2019-04-02 14:19:58,064 INFO  [i.r.UnmanagedLoadbalancedWorkerHandler] [] [] [] : Connecting worker UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 successfully added to the loadbalancing strategy. Assigned virtual worker: [0].
+2019-04-02 14:19:58,065 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ turfs {
+  entity_query {
+    constraint {
+      write_acl_constraint {
+        requirement_set {
+          attribute_set {
+            attribute: "UnityGameLogic"
+          }
+        }
+      }
+    }
+    result_type {
+    }
+  }
+  requirement_set_constraint {
+    attribute_set {
+      attribute: "UnityGameLogic"
+    }
+  }
+  intended_worker_id: "UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8"
+}
+
+2019-04-02 14:19:58,093 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 registered with bridge internal service
+2019-04-02 14:19:58,093 INFO  [improbable.bridge.v2.Bridge] [] [] [] : Ready for worker connection
+2019-04-02 14:19:58,170 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 connected to SpatialOS successfully.
+2019-04-02 14:19:58,171 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge for worker UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 started successfully.
+2019-04-02 14:19:59,019 INFO  [i.receptionist.BridgeAllocator] [] [] [] : Handling connection request for worker of type UnityClient trying to log in: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5
+2019-04-02 14:19:59,019 INFO  [i.b.s.BridgeServiceOracleInternalServiceImpl] [] [] [] : BridgeServicePicker returned service legacy_guid: "bridge-service"
+address {
+  host: "127.0.0.1"
+  port: 9312
+}
+ with load BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0) for Bridge(UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5)
+2019-04-02 14:19:59,020 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Creating Bridge v2: link_settings {
+  raknet_settings {
+    heartbeat_timeout_ms: 60000
+    initial_connection_timeout_ms: 60000
+  }
+}
+worker_id: "UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5"
+worker_name: "UnityClient"
+use_session: true
+bridge_protocol_settings {
+  worker_supported_diffing_formats: DIRECT
+  worker_supported_diffing_formats: BINARY_V1
+  worker_supported_diffing_formats: QUEUE_V1
+  worker_supported_diffing_formats: HEURISTIC_V1
+}
+
+2019-04-02 14:19:59,051 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 registered with bridge internal service
+2019-04-02 14:19:59,051 INFO  [improbable.bridge.v2.Bridge] [] [] [] : Ready for worker connection
+2019-04-02 14:19:59,130 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 connected to SpatialOS successfully.
+2019-04-02 14:19:59,131 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge for worker UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 started successfully.
+2019-04-02 14:20:02,121 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:02,121 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:02,804 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:02,805 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:03,359 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:20:05,792 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:05,792 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:06,076 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:06,076 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:06,613 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:06,613 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:06,943 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:06,943 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:07,091 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:07,091 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:07,901 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:07,901 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:08,249 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:08,249 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:08,491 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:08,491 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:08,789 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:08,789 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:08,993 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:08,993 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:10,168 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:10,168 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:10,517 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:10,519 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:10,888 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:10,888 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:11,360 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:11,360 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:11,750 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:11,750 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:12,173 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:12,173 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:12,566 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:12,566 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:13,032 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:13,032 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:13,358 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:20:13,532 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:13,532 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:13,868 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:13,868 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:14,167 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:14,167 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:14,774 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:14,774 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:15,194 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:15,194 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:15,641 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:15,641 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NullReferenceException: Object reference not set to an instance of an object
+Assets.Scripts.Player.PlayerInput.Update () (at Assets/Scripts/Player/PlayerInput.cs:57)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:23,360 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:20:23,362 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:20:25,292 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5] NotSupportedException: Visual Studio Tools: Project file has no matching compilation unit for <AssemblyName xmlns="http://schemas.microsoft.com/developer/msbuild/2003">Improbable.Gdk.PlayerLifecycle</AssemblyName>
+SyntaxTree.VisualStudio.Unity.Bridge.ProjectFilePostprocessor.OnGeneratedCSProject (System.String path, System.String content) (at <baccc7e73250494dbca3e5b1f2d4a763>:0)
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+UnityEditor.AssetPostprocessingInternal.CallOnGeneratedCSProject (System.String path, System.String content) (at C:/buildslave/unity/build/Editor/Mono/AssetPostprocessor.cs:189)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProjectFileIfNotChanged (System.String path, System.String newContents) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:344)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProject (UnityEditor.Scripting.MonoIsland island, System.Collections.Generic.Dictionary`2[TKey,TValue] allAssetsProjectParts, System.Collections.Generic.IEnumerable`1[T] responseFilesData, System.Collections.Generic.List`1[T] allProjectIslands) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:337)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.GenerateAndWriteSolutionAndProjects (UnityEditorInternal.ScriptEditorUtility+ScriptEditor scriptEditor) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:238)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.Sync () (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:215)
+UnityEditor.SyncVS.SyncIfFirstFileOpenSinceDomainLoad () (at C:/buildslave/unity/build/Editor/Mono/SyncProject.cs:197)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+ -[WorkerLogger:UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5]
+2019-04-02 14:20:25,292 ERROR [i.b.logging.EngineLogMessageHandler] [] [] [] : [Worker: UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8] NotSupportedException: Visual Studio Tools: Project file has no matching compilation unit for <AssemblyName xmlns="http://schemas.microsoft.com/developer/msbuild/2003">Improbable.Gdk.PlayerLifecycle</AssemblyName>
+SyntaxTree.VisualStudio.Unity.Bridge.ProjectFilePostprocessor.OnGeneratedCSProject (System.String path, System.String content) (at <baccc7e73250494dbca3e5b1f2d4a763>:0)
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) (at <ac823e2bb42b41bda67924a45a0173c3>:0)
+UnityEditor.AssetPostprocessingInternal.CallOnGeneratedCSProject (System.String path, System.String content) (at C:/buildslave/unity/build/Editor/Mono/AssetPostprocessor.cs:189)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProjectFileIfNotChanged (System.String path, System.String newContents) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:344)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.SyncProject (UnityEditor.Scripting.MonoIsland island, System.Collections.Generic.Dictionary`2[TKey,TValue] allAssetsProjectParts, System.Collections.Generic.IEnumerable`1[T] responseFilesData, System.Collections.Generic.List`1[T] allProjectIslands) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:337)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.GenerateAndWriteSolutionAndProjects (UnityEditorInternal.ScriptEditorUtility+ScriptEditor scriptEditor) (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:238)
+UnityEditor.VisualStudioIntegration.SolutionSynchronizer.Sync () (at C:/buildslave/unity/build/Editor/Mono/VisualStudioIntegration/SolutionSynchronizer.cs:215)
+UnityEditor.SyncVS.SyncIfFirstFileOpenSinceDomainLoad () (at C:/buildslave/unity/build/Editor/Mono/SyncProject.cs:197)
+UnityEngine.GUIUtility:ProcessEvent(Int32, IntPtr)
+ -[WorkerLogger:UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8]
+2019-04-02 14:20:33,357 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:20:35,968 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection
+2019-04-02 14:20:35,969 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8 unregistered with bridge internal service
+2019-04-02 14:20:35,970 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge(UnityGameLogic-580f309c-4e88-47bf-9c69-66aee29983a8) stopped.
+2019-04-02 14:20:35,971 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 5
+2019-04-02 14:20:35,970 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 5
+2019-04-02 14:20:36,063 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection
+2019-04-02 14:20:36,063 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5 unregistered with bridge internal service
+2019-04-02 14:20:36,064 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 6
+2019-04-02 14:20:36,064 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 6
+2019-04-02 14:20:36,064 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge(UnityClient-f51a9427-bf88-4433-b20a-ecbba75604e5) stopped.
+2019-04-02 14:20:38,364 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 
+2019-04-02 14:20:43,353 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:20:43,448 INFO  [i.receptionist.BridgeAllocator] [] [] [] : Handling connection request for worker of type UnityGameLogic trying to log in: UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341
+2019-04-02 14:20:43,449 INFO  [i.b.s.BridgeServiceOracleInternalServiceImpl] [] [] [] : BridgeServicePicker returned service legacy_guid: "bridge-service"
+address {
+  host: "127.0.0.1"
+  port: 9312
+}
+ with load BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0) for Bridge(UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341)
+2019-04-02 14:20:43,449 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Creating Bridge v2: link_settings {
+  raknet_settings {
+    heartbeat_timeout_ms: 60000
+    initial_connection_timeout_ms: 60000
+  }
+}
+worker_id: "UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341"
+worker_name: "UnityGameLogic"
+use_session: true
+bridge_protocol_settings {
+  worker_supported_diffing_formats: DIRECT
+  worker_supported_diffing_formats: BINARY_V1
+  worker_supported_diffing_formats: QUEUE_V1
+  worker_supported_diffing_formats: HEURISTIC_V1
+}
+
+2019-04-02 14:20:43,450 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 
+2019-04-02 14:20:43,450 INFO  [i.r.UnmanagedLoadbalancedWorkerHandler] [] [] [] : Connecting worker UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 successfully added to the loadbalancing strategy. Assigned virtual worker: [0].
+2019-04-02 14:20:43,451 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ turfs {
+  entity_query {
+    constraint {
+      write_acl_constraint {
+        requirement_set {
+          attribute_set {
+            attribute: "UnityGameLogic"
+          }
+        }
+      }
+    }
+    result_type {
+    }
+  }
+  requirement_set_constraint {
+    attribute_set {
+      attribute: "UnityGameLogic"
+    }
+  }
+  intended_worker_id: "UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341"
+}
+
+2019-04-02 14:20:43,479 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 registered with bridge internal service
+2019-04-02 14:20:43,479 INFO  [improbable.bridge.v2.Bridge] [] [] [] : Ready for worker connection
+2019-04-02 14:20:43,565 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 connected to SpatialOS successfully.
+2019-04-02 14:20:43,678 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge for worker UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 started successfully.
+2019-04-02 14:20:44,276 INFO  [i.receptionist.BridgeAllocator] [] [] [] : Handling connection request for worker of type UnityClient trying to log in: UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc
+2019-04-02 14:20:44,277 INFO  [i.b.s.BridgeServiceOracleInternalServiceImpl] [] [] [] : BridgeServicePicker returned service legacy_guid: "bridge-service"
+address {
+  host: "127.0.0.1"
+  port: 9312
+}
+ with load BridgeModuleLoadBalanceInfo((0.0, 0.0, 0.0),0) for Bridge(UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc)
+2019-04-02 14:20:44,277 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Creating Bridge v2: link_settings {
+  raknet_settings {
+    heartbeat_timeout_ms: 60000
+    initial_connection_timeout_ms: 60000
+  }
+}
+worker_id: "UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc"
+worker_name: "UnityClient"
+use_session: true
+bridge_protocol_settings {
+  worker_supported_diffing_formats: DIRECT
+  worker_supported_diffing_formats: BINARY_V1
+  worker_supported_diffing_formats: QUEUE_V1
+  worker_supported_diffing_formats: HEURISTIC_V1
+}
+
+2019-04-02 14:20:44,306 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc registered with bridge internal service
+2019-04-02 14:20:44,306 INFO  [improbable.bridge.v2.Bridge] [] [] [] : Ready for worker connection
+2019-04-02 14:20:44,390 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc connected to SpatialOS successfully.
+2019-04-02 14:20:44,391 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge for worker UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc started successfully.
+2019-04-02 14:20:53,356 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:20:53,359 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:20:53,361 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ turfs {
+  entity_query {
+    constraint {
+      write_acl_constraint {
+        requirement_set {
+          attribute_set {
+            attribute: "UnityGameLogic"
+          }
+        }
+      }
+    }
+    result_type {
+    }
+  }
+  requirement_set_constraint {
+    attribute_set {
+      attribute: "UnityGameLogic"
+    }
+  }
+  intended_worker_id: "UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341"
+}
+
+2019-04-02 14:21:03,360 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:21:11,760 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection
+2019-04-02 14:21:11,760 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc unregistered with bridge internal service
+2019-04-02 14:21:11,762 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge(UnityClient-df19fd43-8d20-4cb4-ae6f-40e51f6ff7dc) stopped.
+2019-04-02 14:21:11,762 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 8
+2019-04-02 14:21:11,762 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 8
+2019-04-02 14:21:11,843 INFO  [improbable.bridge.v2.Bridge] [] [] [] : The worker UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 disconnected from SpatialOS with cause CONNECTION_CLOSED: REMOTE_SHUTDOWN: transport remote peer closed the connection
+2019-04-02 14:21:11,843 INFO  [i.b.i.BridgeInternalServiceImpl] [] [] [] : Bridge UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341 unregistered with bridge internal service
+2019-04-02 14:21:11,844 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 7
+2019-04-02 14:21:11,845 INFO  [i.b.o.s.BridgeOracleInternalServiceImpl] [] [] [] : Bridge(UnityGameLogic-c65c593e-5973-45ff-9bea-943be7c9d341) stopped.
+2019-04-02 14:21:11,844 WARN  [i.d.o.d.query.QueryManager] [] [] [] : Tried to unsubscribe from an index that doesn't exist: 7
+2019-04-02 14:21:13,360 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:21:13,364 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 
+2019-04-02 14:21:23,354 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Updating available worker nanny clients. Old clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]. New clients: [WorkerNannyId{name=WorkerNodeOne, serviceAddress=host: "127.0.0.1"
+port: 22000
+, workerNodeId=deployment_id {
+  project_id {
+    name: "beta_kansas_india_232"
+  }
+  name: "local"
+}
+name: "WorkerNodeOne"
+}]
+2019-04-02 14:21:23,355 INFO  [i.worker.nanny.WorkerNannyManager] [] [] [] : Successfully updated Worker Nanny loads: {WorkerNodeOne=cpu_usage {
+}
+}
+2019-04-02 14:21:23,361 INFO  [i.loadbalancing.v2.Loadbalancer] [] [] [] : Successfully sent GlobalAssignmentIntent to TurfEnforcers.
+ 

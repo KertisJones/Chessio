@@ -1,0 +1,12 @@
+// ------------------------------------------------------------------------
+// WARNING: DO NOT EDIT.
+// Any changes made to this file will be overwritten by the Code Generator.
+// ------------------------------------------------------------------------
+
+package improbable.player_lifecycle;
+
+component OwningWorker
+{
+    id = 13003;
+    string worker_id = 1;
+}
